@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Same function</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <h1 id="amount-balance">5000</h1>
+        <div class="flex gap-8">
+            <button id="add-money-button">Add money</button>
+        <button id="cash-out-button">Cash out</button>
+        <button id="Transections-button">Transections</button>
+        </div>
+      <div id="add-money-section" class="">
+        <input id="input-add-money" type="text" placeholder="amount Balance">
+        <input id="input-pin-number" type="password" placeholder="pin number">
+        <button id="btn-add-money">Add money</button>
+      </div>
+      <div id="cash-out-section" class="">
+       
+        <input id="input-cash-out" type="text" placeholder="amount Balance">
+        <input id="input-cash-out-pin-number" type="password" placeholder="pin number">
+        <button id="btn-cash-out">Cash out</button>
+      </div>
+      <div id="Transections-section">
+        <h1>Transections sections History</h1>
+      </div>
+
+        <script src="js/utilities.js"></script>
+        <script src="js/addMoney.js"></script>
+        <script src="js/cashOut.js"></script>
+        <script src="js/features.js"></script>
+    </main>
+</body>
+</html>
